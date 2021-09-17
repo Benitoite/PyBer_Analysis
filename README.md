@@ -37,7 +37,7 @@ Which generates the following output:
 
 This type of data is useful in creating visualizations such as the pie chart, because each element represents a part of a whole. For example, with the code `plt.pie(chartTheseData, labels=['Urban', 'Suburban', 'Rural'], shadow= True, startangle=90, explode=[.1,.1,.2], autopct='%1.1f%%')`, python will generate this type of pie chart:
 
-<img src="Resources/pie.jpg"></img>
+<img src="Resources/pie.jpg" width=250></img>
 
 
 |    |
@@ -45,4 +45,22 @@ This type of data is useful in creating visualizations such as the pie chart, be
 | Summary |
 |    |
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+In summary, we are presenting the following business recommendations based on our analysis directly to the client CEO:
+* Increase driver participation in the Rural sector.
+
+<img src="Resources/weekly.jpg"  width=750></img>
+
+Here it is seen that Rural drivers are generating a substantially lower amount of fares compared with drivers based in Suburban and Urban cities.
+
+* Offer drivers incentives for serving the Rural sector.
+* Educate drivers on the benefits of serving the Rural sector.
+ 
+<img src="Resources/faretype.jpg"  width=750></img>
+
+Here it is seen that Rural drivers earn much more per fare per trip.
+
+* Increase rider participation in the Suburban sector.
+ 
+<img src="Resources/pie.jpg"></img>
+
+In this chart it is shown that the Suburban sector, although in the middle between Rural and Urban, has potentially the greatest room for increase in fares generated.
